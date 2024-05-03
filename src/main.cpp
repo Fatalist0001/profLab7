@@ -10,6 +10,5 @@ int main(){
     JsonService js;
     Weather w = js.getWeather("/root/pr/profLab7/src/weather.json");
     XmlService xs;
-    Weather w = xs.getWeather("weather.xml");
-    //no conflict
+    Weather w = xs.getWeather("/root/pr/profLab7/src/weather.xml");
 }

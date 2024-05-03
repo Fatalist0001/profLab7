@@ -4,7 +4,7 @@
 #include "/root/pr/profLab7/include/Service.h"
 using namespace std;
 
-Weather::Weather(string city, double lon, double lat, double temperature, string weather, double windSpeed, int clouds){
+WeatherService::Weather(string city, double lon, double lat, double temperature, string weather, double windSpeed, int clouds){
     this->city = city;
     this->lon = lon;
     this->lat = lat;
@@ -14,7 +14,7 @@ Weather::Weather(string city, double lon, double lat, double temperature, string
     this->clouds = clouds;
 }
 
-void Weather::printWeather(string city, double lon, double lat, double temperature, string weather, double windSpeed, int clouds){
+void WeatherService::printWeather(string city, double lon, double lat, double temperature, string weather, double windSpeed, int clouds){
     cout << "City: " << city << endl;
     cout << "Longitude: " << lon << endl;
     cout << "Latitude: " << lat << endl;

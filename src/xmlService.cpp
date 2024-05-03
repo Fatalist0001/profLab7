@@ -6,7 +6,7 @@
 using namespace std;
 using namespace pugi;
 
-Weather XmlService::getWeather(string s){
+WeatherService XmlService::getWeather(string s){
     xml_document doc;
     xml_parse_result result = doc.load_file(s.c_str());
     if (!result)

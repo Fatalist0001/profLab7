@@ -7,6 +7,6 @@ using namespace std;
 
 class JsonService :public Service{
 public:
-	virtual Weather getWeather(string s) override;
+	virtual WeatherService getWeather(string s) override;
 	virtual ~JsonService() {};
 };
