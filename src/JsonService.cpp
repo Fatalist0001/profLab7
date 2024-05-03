@@ -4,7 +4,7 @@
 using namespace std;
 using nlohmann::json;
 
-Weather JsonService::getWeather(string s)
+JsonService::getWeather(string s)
 {
     ifstream fin(s);
     if (!fin)

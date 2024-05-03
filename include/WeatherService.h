@@ -6,9 +6,9 @@ using namespace std;
 class Weather{
     private:
         string city;
-        double lon
+        double lon;
         double lat;
-        doutble temperature;
+        double temperature;
         string weather; 
         double windSpeed; 
         int clouds; 
