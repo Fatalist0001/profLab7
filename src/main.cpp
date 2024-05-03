@@ -9,4 +9,6 @@ using namespace std;
 int main(){
     JsonService js;
     Weather w = js.getWeather("/root/pr/profLab7/src/weather.json");
+    XmlService xs;
+    Weather w = xs.getWeather("weather.xml");
 }
