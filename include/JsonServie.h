@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include "/root/pr/profLab7/include/Service.h"
+#include "/root/pr/profLab7/include/WeatherService.h"
 using namespace std;
 
 class JsonService :public Service{

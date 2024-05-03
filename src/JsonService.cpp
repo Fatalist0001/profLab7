@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
 #include "/root/pr/profLab7/lib/json.hpp"
+#include "/root/pr/profLab7/include/JsonServie.h"
+#include "/root/pr/profLab7/include/WeatherService.h"
 using namespace std;
 using nlohmann::json;
 
-JsonService::getWeather(string s)
-{
+JsonService::getWeather(string s){
     ifstream fin(s);
     if (!fin)
         throw exception("error");
